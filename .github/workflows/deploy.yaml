@@ -31,7 +31,7 @@ jobs:
           repository: j6nca/notes
           fetch-depth: 0
       - name: Move docs into target directory
-        run: mv notes/docs/* ./content/
+        run: mv notes/docs/ ./content/
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
