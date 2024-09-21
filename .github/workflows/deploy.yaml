@@ -33,6 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: j6nca/notes
+          path: './notes'
           fetch-depth: 0
       - name: Move docs into target directory
         run: |
