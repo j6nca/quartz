@@ -39,7 +39,7 @@ jobs:
         run: |
           pwd
           ls
-          mv notes/docs/ ./content/
+          mv notes/docs/* ./content/
           ls ./content
       - name: Build Quartz
         run: npx quartz build
